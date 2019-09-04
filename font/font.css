@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Minecraft";
+  src: url("minecraftfont.eot"); /* IE9 Compat Modes */
+  src: url("minecraftfont.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("minecraftfont.otf") format("opentype"), /* Open Type Font */
+    url("minecraftfont.svg") format("svg"), /* Legacy iOS */
+    url("minecraftfont.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("minecraftfont.woff") format("woff"), /* Modern Browsers */
+    url("minecraftfont.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Minecrafter";
+  src: url("MinecrafterReg.eot"); /* IE9 Compat Modes */
+  src: url("MinecrafterReg.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("MinecrafterReg.otf") format("opentype"), /* Open Type Font */
+    url("MinecrafterReg.svg") format("svg"), /* Legacy iOS */
+    url("MinecrafterReg.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("MinecrafterReg.woff") format("woff"), /* Modern Browsers */
+    url("MinecrafterReg.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'VCROSDMono';
+  src: url('VCROSDMono.eot');
+  src: url('VCROSDMono.woff2') format('woff2'),
+       url('VCROSDMono.woff') format('woff'),
+       url('VCROSDMono.ttf') format('truetype'),
+       url('VCROSDMono.svg#VCROSDMono') format('svg'),
+       url('VCROSDMono.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background-color: black;
+  color: rgb(255,255,255);
+  padding-top: 15px;
+  padding-left: 15px;
+}
+  

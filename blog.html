@@ -1,0 +1,18 @@
+---
+permalink: /blog/
+---
+<ul class="posts">
+    {%- for post in site.posts -%}
+    <li>
+      {%- assign date_format = "%b %-d, %Y" -%}
+      <h2 class="post-title">{{ post.title | escape }}</h2>
+      <div class="post-date">
+          </i>{{ post.date | date: date_format }}</div>
+      </div>
+      {% if post.author-link and post.author %}<a href="{{post.author-link}}">{{post.author}}</a>{% endif %}
+      <div class="post">
+        {{post.content}}
+      </div>
+    </li>
+    {%- endfor -%}
+</ul>
